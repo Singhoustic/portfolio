@@ -270,6 +270,7 @@ button:hover {
 #footer {
 	height: 20vh;
 	font-size: 20px;
+	background-color: #000;
 }
 #footer > .foot1 > p {
 	color: #a3a3a3;
@@ -302,4 +303,7 @@ button:hover {
 #footer > .foot2 a:hover::after {
 	color: white;
 	width: 100%;
+}
+
+@media screen {
 }
