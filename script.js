@@ -133,9 +133,9 @@ const downloadResume = () => {
     // window.location.href = "https://drive.google.com/file/d/1osXJygsJ9n9xCsWHx2Y8Ng9yghIGG6Fe/view?usp=drive_link";
 }
 
-// mini_circle();
-// mouseFollow();
-// firstPage();
+mini_circle();
+mouseFollow();
+firstPage();
 skills();
 section();
 
