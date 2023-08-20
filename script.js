@@ -104,7 +104,7 @@ function section() {
                 ease: Power2.in,
                 top: diff - 125,
                 left: details.clientX - 245,
-                rotate: gsap.utils.clamp(-15, 15, rotateDiff),
+                rotate: gsap.utils.clamp(-10, 10, rotateDiff),
             })
         })
     })
@@ -123,7 +123,7 @@ function section() {
 
 setInterval(() => {
     let d = new Date();
-    var time = (d.getHours()) + ":" + d.getMinutes() + " IST";
+    var time = d.getHours() + ":" + d.getMinutes() + " IST";
     document.querySelector("#time").innerHTML = time;
 }, 100);
 
@@ -138,4 +138,3 @@ mouseFollow();
 firstPage();
 skills();
 section();
-
