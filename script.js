@@ -129,7 +129,7 @@ setInterval(() => {
 
 const downloadResume = () => {
     console.log("clicked")
-    window.open("https://drive.google.com/file/d/1zsEe_YLuQqYL57b9OMqJ0z7XuS1dlOVi/view?usp=drive_link", "_blank")
+    window.open("https://drive.google.com/file/d/182_r8z2FMDHJ7QrDlGDjuN9GRbbRkH1L/view?usp=sharing", "_blank")
 }
 
 mini_circle();
