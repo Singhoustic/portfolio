@@ -128,7 +128,6 @@ setInterval(() => {
 }, 100);
 
 const downloadResume = () => {
-    console.log("clicked")
     window.open("https://drive.google.com/file/d/182_r8z2FMDHJ7QrDlGDjuN9GRbbRkH1L/view?usp=sharing", "_blank")
 }
 
