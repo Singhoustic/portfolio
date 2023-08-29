@@ -320,11 +320,9 @@ button:hover {
 	width: 100%;
 }
 
-@media screen and (max-width: 1235px) {
+@media screen and (max-width: 1280px) {
 	#data h1:nth-child(2) {
-		/* background-color: blue; */
 		margin-left: 8%;
-		/* word-break: break-all; */
 	}
 }
 @media screen and (max-width: 995px) {
@@ -345,29 +343,32 @@ button:hover {
 		line-height: 130px;
 		font-size: 130px;
 	}
+	#data {
+		margin-bottom: 120px;
+	}
 }
 @media screen and (max-width: 670px) {
 	#data h1 {
-		text-align: center;
+		/* text-align: center; */
 		line-height: 100px;
 		font-size: 100px;
 	}
-	#nav {
-		flex-direction: column;
+	#data h1:nth-child(2) {
+		margin-left: 28%;
 	}
 	#nav h3 {
 		margin-bottom: 20px;
 	}
+	#data {
+		margin-bottom: 90px;
+	}
 }
 @media screen and (max-width: 532px) {
 	#data h1 {
-		/* text-align: center; */
-		/* line-height: 70px; */
 		font-size: 80px;
-		/* margin-left: 0; */
 	}
 	#data h1:nth-child(2) {
-		margin-left: 2%;
+		margin-left: 7%;
 	}
 }
 
@@ -385,12 +386,12 @@ button:hover {
 	}
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
 	.about_text > img {
 		height: 150px;
 		width: 150px;
 	}
-	.about_text {
+	.about_text:nth-child(2) {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
@@ -398,6 +399,9 @@ button:hover {
 		margin: 0;
 		margin-top: 20px;
 		padding: 0;
+	}
+	.text_data {
+		padding: 20px 20px 0 20px;
 	}
 	.about_text > button {
 		align-items: center;
@@ -408,7 +412,7 @@ button:hover {
 	}
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
 	#sections > .elem {
 		font-size: 100px;
 	}
@@ -425,6 +429,9 @@ button:hover {
 }
 
 @media screen and (max-width: 550px) {
+	#sections {
+		margin-top: 0;
+	}
 	#sections > .elem {
 		font-size: 80px;
 	}
@@ -441,17 +448,25 @@ button:hover {
 	#footer {
 		height: 8vh;
 	}
+
+	#skills {
+		margin: 47px 0 47px 0;
+	}
+	#data {
+		margin-bottom: 50px;
+	}
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 480px) {
 	#sections > .elem {
 		font-size: 50px;
 	}
+
 	#footer {
 		font-size: 15px;
 	}
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1025px) {
 	#channel_data > a {
 		font-size: 6vw;
 	}
