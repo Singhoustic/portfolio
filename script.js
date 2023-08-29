@@ -128,7 +128,7 @@ setInterval(() => {
 }, 100);
 
 const downloadResume = () => {
-    window.open("https://drive.google.com/file/d/182_r8z2FMDHJ7QrDlGDjuN9GRbbRkH1L/view?usp=sharing", "_blank")
+    window.open("https://drive.google.com/drive/u/0/folders/1mW-DG7OnoxYm9JemZYkpv8dQIdX5lOre", "_blank")
 }
 
 mini_circle();
